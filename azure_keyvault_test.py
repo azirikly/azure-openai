@@ -4,6 +4,9 @@ from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 from openai import AzureOpenAI
 
+"""
+__author__ Aya Zirikly
+"""
 
 credential = DefaultAzureCredential()
 VAULT_URL = "YOUR VAULT URL"
